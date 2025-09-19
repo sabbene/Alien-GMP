@@ -21,7 +21,7 @@ share {
   requires 'Alien::m4'    => '0.08';
 
   plugin Download => (
-    url => 'https://ftp.gnu.org/gnu/gmp',
+    url => 'https://ftpmirror.gnu.org/gnu/gmp',
     filter => qr/^gmp-.*\.tar\.bz2$/,
     version => qr/([0-9\.]+)/,
   );
